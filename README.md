@@ -1,4 +1,4 @@
-\# Affine Cipher Program
+# Affine Cipher Program
 
 
 
@@ -6,23 +6,23 @@ This is a C++ implementation of the Affine Cipher encryption and decryption algo
 
 
 
-\## Features
+## Features
 
 
 
-\- Encrypt plaintext using Affine Cipher
+- Encrypt plaintext using Affine Cipher
 
-\- Decrypt ciphertext using Affine Cipher
+- Decrypt ciphertext using Affine Cipher
 
-\- Validates that key A is coprime with 26
+- Validates that key A is coprime with 26
 
-\- Handles spaces in text
+- Handles spaces in text
 
-\- Input validation for uppercase letters
+- Input validation for uppercase letters
 
 
 
-\## How It Works
+## How It Works
 
 
 
@@ -44,28 +44,23 @@ P = A⁻¹ \* (C - B) mod 26
 
 Where:
 
-\- A must be coprime with 26
+- A must be coprime with 26
 
-\- B is any integer
+- B is any integer
 
-\- A⁻¹ is the modular inverse of A
-
-
-
-\## Usage
+- A⁻¹ is the modular inverse of A
 
 
+
+## Usage
 
 Compile:
-
-
-
 g++ AffineCipherProgram.cpp -o affine\_cipher
 
 Run:
 ./affine\_cipher
 
-Notes
+## Notes
 
 Only uppercase letters (A–Z) are supported
 
